@@ -7,6 +7,7 @@ export default defineConfig({
   external: [
     "@antfu/eslint-config",
   ],
+  format: ['cjs', 'esm'],
   shims: true,
   dts: true,
   clean: true,
