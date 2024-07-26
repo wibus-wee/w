@@ -1,6 +1,6 @@
 {
   "name": "@wibus-wee/w",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "My utils. It's a collection of some useful functions, just re-export them.",
   "type": "module",
   "private": false,
