@@ -1,13 +1,13 @@
-# @wibus-wee/w
+# @wibus/w
 
 My utils. It's a collection of some useful functions, just re-export them.
 
 ## 🔨 Usage
 
 ```bash
-npm install @wibus-wee/w
-pnpm install @wibus-wee/w
-yarn add @wibus-wee/w
+npm install @wibus/w
+pnpm install @wibus/w
+yarn add @wibus/w
 ```
 
 ## 🌟 Utils
