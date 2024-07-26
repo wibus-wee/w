@@ -1,0 +1,36 @@
+{
+  "name": "@wibus-wee/w",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "watch": "tsup --format esm,cjs --watch",
+    "lint": "eslint .",
+    "stub": "tsup --format esm",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.23.2",
+    "eslint": "9.5.0",
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@compilets/using-temp-dir": "^1.0.1",
+    "is-directory-empty": "^1.0.0"
+  }
+}
