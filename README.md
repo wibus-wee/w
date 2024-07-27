@@ -19,7 +19,7 @@ yarn add @wibus/w
     - [x] `ffs`
         - [x] `is-directory-empty`
 - [x] Rollup Plugins
-    - [ ] `@wibus-wee/rollup-plugin-inject` - Inject code to the bundle
+    - [x] `@wibus/rollup-plugin-inject` - Inject code to the bundle
 - [ ] Web Utils
 
 ## Author

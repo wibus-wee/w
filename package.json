@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "@compilets/using-temp-dir": "^1.0.1",
+    "@wibus/rollup-plugin-inject": "^0.1.0",
     "is-directory-empty": "^1.0.0"
   }
 }

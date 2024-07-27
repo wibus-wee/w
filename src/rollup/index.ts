@@ -1,1 +1,1 @@
-export * from './inject'
+export * from '@wibus/rollup-plugin-inject'
