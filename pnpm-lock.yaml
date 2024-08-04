@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@compilets/using-temp-dir':
-    specifier: ^1.0.1
-    version: 1.0.1
+    specifier: ^1.0.2
+    version: 1.0.2
   '@wibus/rollup-plugin-inject':
     specifier: ^0.1.0
     version: 0.1.0
@@ -23,8 +23,8 @@ devDependencies:
     specifier: 9.5.0
     version: 9.5.0
   tsup:
-    specifier: ^8.2.3
-    version: 8.2.3(typescript@5.5.4)
+    specifier: ^8.2.4
+    version: 8.2.4(typescript@5.5.4)
   typescript:
     specifier: ^5.5.4
     version: 5.5.4
@@ -194,8 +194,8 @@ packages:
     bundledDependencies:
       - is-unicode-supported
 
-  /@compilets/using-temp-dir@1.0.1:
-    resolution: {integrity: sha512-9c5R3A8+YQeGRgIfErMWNnePwoTs2nbc1kCzBNfH9VoX6YcJWdMYmk/mL0MChan2ZnB/ct4mH3L646677V06vQ==}
+  /@compilets/using-temp-dir@1.0.2:
+    resolution: {integrity: sha512-X1114ktawezce73T4vT1XWDQ8d9Tb9NAmaUEz+cxKxiMW2wJ3DC717wUYrmkZD69bMYXT48z+lT5w7MXIw4rQA==}
     dev: false
 
   /@es-joy/jsdoccomment@0.43.1:
@@ -1049,7 +1049,7 @@ packages:
   /@wibus/rollup-plugin-inject@0.1.0:
     resolution: {integrity: sha512-AfEO2LYOhZuDH8Y3HDjeprrcBFhGEum9evCD65gdXMBaZOYT9YpONgeUhbOvVWPD/k17hkXcHUWvh/mbIVHPLQ==}
     dependencies:
-      tsup: 8.2.3(typescript@5.5.4)
+      tsup: 8.2.4(typescript@5.5.4)
       typescript: 5.5.4
     transitivePeerDependencies:
       - '@microsoft/api-extractor'
@@ -3051,8 +3051,8 @@ packages:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
     dev: true
 
-  /tsup@8.2.3(typescript@5.5.4):
-    resolution: {integrity: sha512-6YNT44oUfXRbZuSMNmN36GzwPPIlD2wBccY7looM2fkTcxkf2NEmwr3OZuDZoySklnrIG4hoEtzy8yUXYOqNcg==}
+  /tsup@8.2.4(typescript@5.5.4):
+    resolution: {integrity: sha512-akpCPePnBnC/CXgRrcy72ZSntgIEUa1jN0oJbbvpALWKNOz1B7aM+UVDWGRGIO/T/PZugAESWDJUAb5FD48o8Q==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
