@@ -27,11 +27,11 @@
   "devDependencies": {
     "@antfu/eslint-config": "^2.23.2",
     "eslint": "9.5.0",
-    "tsup": "^8.2.3",
+    "tsup": "^8.2.4",
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@compilets/using-temp-dir": "^1.0.1",
+    "@compilets/using-temp-dir": "^1.0.2",
     "@wibus/rollup-plugin-inject": "^0.1.0",
     "is-directory-empty": "^1.0.0"
   }
