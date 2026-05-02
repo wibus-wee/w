@@ -28,7 +28,7 @@
     "@antfu/eslint-config": "^2.23.2",
     "eslint": "9.5.0",
     "tsup": "^8.2.3",
-    "typescript": "^5.5.4"
+    "typescript": "^6.0.3"
   },
   "dependencies": {
     "@compilets/using-temp-dir": "^1.0.1",
